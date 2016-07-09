@@ -21,7 +21,7 @@
     float width = [[UIScreen mainScreen] bounds].size.width;
     float height = [[UIScreen mainScreen] bounds].size.height;
 ////
-    LLPlayerView *view = [[LLPlayerView alloc] initWithFrame:CGRectMake(0, 0, width, height) Url:@"http://127.0.0.1/GTA.mp4"];
+    LLPlayerView *view = [[LLPlayerView alloc] initWithFrame:CGRectMake(0, 0, width, height) Url:@"http://127.0.0.1/111.mp4"];
 //    https://mvvideo5.meitudata.com/5678f6d2adf115463.mp4
     [self.view addSubview:view];
 //
