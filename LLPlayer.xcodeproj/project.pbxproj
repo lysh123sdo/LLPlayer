@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		975764521CCD194400EF97FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 975764511CCD194400EF97FA /* main.m */; };
+		975764551CCD194400EF97FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975764541CCD194400EF97FA /* AppDelegate.m */; };
+		975764581CCD194400EF97FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975764571CCD194400EF97FA /* ViewController.m */; };
+		9757645B1CCD194400EF97FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975764591CCD194400EF97FA /* Main.storyboard */; };
+		9757645D1CCD194400EF97FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9757645C1CCD194400EF97FA /* Assets.xcassets */; };
+		975764601CCD194400EF97FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9757645E1CCD194400EF97FA /* LaunchScreen.storyboard */; };
+		9757646B1CCD194400EF97FA /* LLPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9757646A1CCD194400EF97FA /* LLPlayerTests.m */; };
+		975764761CCD194400EF97FA /* LLPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 975764751CCD194400EF97FA /* LLPlayerUITests.m */; };
+		97FCBFEF1CD5C75100976DC3 /* AVAResourceLoaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBFE31CD5C75100976DC3 /* AVAResourceLoaderManager.m */; };
+		97FCBFF01CD5C75100976DC3 /* LLPlayerHeadBurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBFE51CD5C75100976DC3 /* LLPlayerHeadBurn.m */; };
+		97FCBFF11CD5C75100976DC3 /* LLPlayerRequestPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBFE81CD5C75100976DC3 /* LLPlayerRequestPool.m */; };
+		97FCBFF21CD5C75100976DC3 /* LLPlayerRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBFEA1CD5C75100976DC3 /* LLPlayerRequestTask.m */; };
+		97FCBFF31CD5C75100976DC3 /* LLPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBFEC1CD5C75100976DC3 /* LLPlayerView.m */; };
+		97FCBFF41CD5C75100976DC3 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FCBFEE1CD5C75100976DC3 /* PlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		975764671CCD194400EF97FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 975764451CCD194400EF97FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9757644C1CCD194400EF97FA;
+			remoteInfo = LLPlayer;
+		};
+		975764721CCD194400EF97FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 975764451CCD194400EF97FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9757644C1CCD194400EF97FA;
+			remoteInfo = LLPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9757644D1CCD194400EF97FA /* LLPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		975764511CCD194400EF97FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		975764531CCD194400EF97FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		975764541CCD194400EF97FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		975764561CCD194400EF97FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		975764571CCD194400EF97FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9757645A1CCD194400EF97FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9757645C1CCD194400EF97FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9757645F1CCD194400EF97FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		975764611CCD194400EF97FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975764661CCD194400EF97FA /* LLPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9757646A1CCD194400EF97FA /* LLPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPlayerTests.m; sourceTree = "<group>"; };
+		9757646C1CCD194400EF97FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975764711CCD194400EF97FA /* LLPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		975764751CCD194400EF97FA /* LLPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLPlayerUITests.m; sourceTree = "<group>"; };
+		975764771CCD194400EF97FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97FCBFE21CD5C75100976DC3 /* AVAResourceLoaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAResourceLoaderManager.h; sourceTree = "<group>"; };
+		97FCBFE31CD5C75100976DC3 /* AVAResourceLoaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAResourceLoaderManager.m; sourceTree = "<group>"; };
+		97FCBFE41CD5C75100976DC3 /* LLPlayerHeadBurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayerHeadBurn.h; sourceTree = "<group>"; };
+		97FCBFE51CD5C75100976DC3 /* LLPlayerHeadBurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlayerHeadBurn.m; sourceTree = "<group>"; };
+		97FCBFE61CD5C75100976DC3 /* LLPlayerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayerPrivate.h; sourceTree = "<group>"; };
+		97FCBFE71CD5C75100976DC3 /* LLPlayerRequestPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayerRequestPool.h; sourceTree = "<group>"; };
+		97FCBFE81CD5C75100976DC3 /* LLPlayerRequestPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlayerRequestPool.m; sourceTree = "<group>"; };
+		97FCBFE91CD5C75100976DC3 /* LLPlayerRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayerRequestTask.h; sourceTree = "<group>"; };
+		97FCBFEA1CD5C75100976DC3 /* LLPlayerRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlayerRequestTask.m; sourceTree = "<group>"; };
+		97FCBFEB1CD5C75100976DC3 /* LLPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayerView.h; sourceTree = "<group>"; };
+		97FCBFEC1CD5C75100976DC3 /* LLPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlayerView.m; sourceTree = "<group>"; };
+		97FCBFED1CD5C75100976DC3 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		97FCBFEE1CD5C75100976DC3 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9757644A1CCD194400EF97FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975764631CCD194400EF97FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9757646E1CCD194400EF97FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		975764441CCD194400EF97FA = {
+			isa = PBXGroup;
+			children = (
+				9757644F1CCD194400EF97FA /* LLPlayer */,
+				975764691CCD194400EF97FA /* LLPlayerTests */,
+				975764741CCD194400EF97FA /* LLPlayerUITests */,
+				9757644E1CCD194400EF97FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9757644E1CCD194400EF97FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9757644D1CCD194400EF97FA /* LLPlayer.app */,
+				975764661CCD194400EF97FA /* LLPlayerTests.xctest */,
+				975764711CCD194400EF97FA /* LLPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9757644F1CCD194400EF97FA /* LLPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				97FCBFE11CD5C75100976DC3 /* Libary */,
+				975764531CCD194400EF97FA /* AppDelegate.h */,
+				975764541CCD194400EF97FA /* AppDelegate.m */,
+				975764561CCD194400EF97FA /* ViewController.h */,
+				975764571CCD194400EF97FA /* ViewController.m */,
+				975764591CCD194400EF97FA /* Main.storyboard */,
+				9757645C1CCD194400EF97FA /* Assets.xcassets */,
+				9757645E1CCD194400EF97FA /* LaunchScreen.storyboard */,
+				975764611CCD194400EF97FA /* Info.plist */,
+				975764501CCD194400EF97FA /* Supporting Files */,
+			);
+			path = LLPlayer;
+			sourceTree = "<group>";
+		};
+		975764501CCD194400EF97FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				975764511CCD194400EF97FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		975764691CCD194400EF97FA /* LLPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9757646A1CCD194400EF97FA /* LLPlayerTests.m */,
+				9757646C1CCD194400EF97FA /* Info.plist */,
+			);
+			path = LLPlayerTests;
+			sourceTree = "<group>";
+		};
+		975764741CCD194400EF97FA /* LLPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				975764751CCD194400EF97FA /* LLPlayerUITests.m */,
+				975764771CCD194400EF97FA /* Info.plist */,
+			);
+			path = LLPlayerUITests;
+			sourceTree = "<group>";
+		};
+		97FCBFE11CD5C75100976DC3 /* Libary */ = {
+			isa = PBXGroup;
+			children = (
+				97FCBFE21CD5C75100976DC3 /* AVAResourceLoaderManager.h */,
+				97FCBFE31CD5C75100976DC3 /* AVAResourceLoaderManager.m */,
+				97FCBFE41CD5C75100976DC3 /* LLPlayerHeadBurn.h */,
+				97FCBFE51CD5C75100976DC3 /* LLPlayerHeadBurn.m */,
+				97FCBFE61CD5C75100976DC3 /* LLPlayerPrivate.h */,
+				97FCBFE71CD5C75100976DC3 /* LLPlayerRequestPool.h */,
+				97FCBFE81CD5C75100976DC3 /* LLPlayerRequestPool.m */,
+				97FCBFE91CD5C75100976DC3 /* LLPlayerRequestTask.h */,
+				97FCBFEA1CD5C75100976DC3 /* LLPlayerRequestTask.m */,
+				97FCBFEB1CD5C75100976DC3 /* LLPlayerView.h */,
+				97FCBFEC1CD5C75100976DC3 /* LLPlayerView.m */,
+				97FCBFED1CD5C75100976DC3 /* PlayerView.h */,
+				97FCBFEE1CD5C75100976DC3 /* PlayerView.m */,
+			);
+			path = Libary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9757644C1CCD194400EF97FA /* LLPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9757647A1CCD194400EF97FA /* Build configuration list for PBXNativeTarget "LLPlayer" */;
+			buildPhases = (
+				975764491CCD194400EF97FA /* Sources */,
+				9757644A1CCD194400EF97FA /* Frameworks */,
+				9757644B1CCD194400EF97FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLPlayer;
+			productName = LLPlayer;
+			productReference = 9757644D1CCD194400EF97FA /* LLPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		975764651CCD194400EF97FA /* LLPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9757647D1CCD194400EF97FA /* Build configuration list for PBXNativeTarget "LLPlayerTests" */;
+			buildPhases = (
+				975764621CCD194400EF97FA /* Sources */,
+				975764631CCD194400EF97FA /* Frameworks */,
+				975764641CCD194400EF97FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				975764681CCD194400EF97FA /* PBXTargetDependency */,
+			);
+			name = LLPlayerTests;
+			productName = LLPlayerTests;
+			productReference = 975764661CCD194400EF97FA /* LLPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		975764701CCD194400EF97FA /* LLPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975764801CCD194400EF97FA /* Build configuration list for PBXNativeTarget "LLPlayerUITests" */;
+			buildPhases = (
+				9757646D1CCD194400EF97FA /* Sources */,
+				9757646E1CCD194400EF97FA /* Frameworks */,
+				9757646F1CCD194400EF97FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				975764731CCD194400EF97FA /* PBXTargetDependency */,
+			);
+			name = LLPlayerUITests;
+			productName = LLPlayerUITests;
+			productReference = 975764711CCD194400EF97FA /* LLPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		975764451CCD194400EF97FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LLPlayer;
+				TargetAttributes = {
+					9757644C1CCD194400EF97FA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					975764651CCD194400EF97FA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9757644C1CCD194400EF97FA;
+					};
+					975764701CCD194400EF97FA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9757644C1CCD194400EF97FA;
+					};
+				};
+			};
+			buildConfigurationList = 975764481CCD194400EF97FA /* Build configuration list for PBXProject "LLPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 975764441CCD194400EF97FA;
+			productRefGroup = 9757644E1CCD194400EF97FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9757644C1CCD194400EF97FA /* LLPlayer */,
+				975764651CCD194400EF97FA /* LLPlayerTests */,
+				975764701CCD194400EF97FA /* LLPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9757644B1CCD194400EF97FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975764601CCD194400EF97FA /* LaunchScreen.storyboard in Resources */,
+				9757645D1CCD194400EF97FA /* Assets.xcassets in Resources */,
+				9757645B1CCD194400EF97FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975764641CCD194400EF97FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9757646F1CCD194400EF97FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		975764491CCD194400EF97FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FCBFF11CD5C75100976DC3 /* LLPlayerRequestPool.m in Sources */,
+				97FCBFF31CD5C75100976DC3 /* LLPlayerView.m in Sources */,
+				97FCBFF01CD5C75100976DC3 /* LLPlayerHeadBurn.m in Sources */,
+				975764581CCD194400EF97FA /* ViewController.m in Sources */,
+				975764551CCD194400EF97FA /* AppDelegate.m in Sources */,
+				975764521CCD194400EF97FA /* main.m in Sources */,
+				97FCBFF21CD5C75100976DC3 /* LLPlayerRequestTask.m in Sources */,
+				97FCBFF41CD5C75100976DC3 /* PlayerView.m in Sources */,
+				97FCBFEF1CD5C75100976DC3 /* AVAResourceLoaderManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975764621CCD194400EF97FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9757646B1CCD194400EF97FA /* LLPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9757646D1CCD194400EF97FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975764761CCD194400EF97FA /* LLPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		975764681CCD194400EF97FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9757644C1CCD194400EF97FA /* LLPlayer */;
+			targetProxy = 975764671CCD194400EF97FA /* PBXContainerItemProxy */;
+		};
+		975764731CCD194400EF97FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9757644C1CCD194400EF97FA /* LLPlayer */;
+			targetProxy = 975764721CCD194400EF97FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		975764591CCD194400EF97FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9757645A1CCD194400EF97FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9757645E1CCD194400EF97FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9757645F1CCD194400EF97FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		975764781CCD194400EF97FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		975764791CCD194400EF97FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9757647B1CCD194400EF97FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLPlayer.LLPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9757647C1CCD194400EF97FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLPlayer.LLPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9757647E1CCD194400EF97FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLPlayer.LLPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLPlayer.app/LLPlayer";
+			};
+			name = Debug;
+		};
+		9757647F1CCD194400EF97FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLPlayer.LLPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLPlayer.app/LLPlayer";
+			};
+			name = Release;
+		};
+		975764811CCD194400EF97FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLPlayer.LLPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		975764821CCD194400EF97FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LLPlayer.LLPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		975764481CCD194400EF97FA /* Build configuration list for PBXProject "LLPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975764781CCD194400EF97FA /* Debug */,
+				975764791CCD194400EF97FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9757647A1CCD194400EF97FA /* Build configuration list for PBXNativeTarget "LLPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9757647B1CCD194400EF97FA /* Debug */,
+				9757647C1CCD194400EF97FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9757647D1CCD194400EF97FA /* Build configuration list for PBXNativeTarget "LLPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9757647E1CCD194400EF97FA /* Debug */,
+				9757647F1CCD194400EF97FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		975764801CCD194400EF97FA /* Build configuration list for PBXNativeTarget "LLPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975764811CCD194400EF97FA /* Debug */,
+				975764821CCD194400EF97FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 975764451CCD194400EF97FA /* Project object */;
+}
